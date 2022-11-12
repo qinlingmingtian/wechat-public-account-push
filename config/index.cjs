@@ -27,7 +27,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '3-2',
       LITERARY_PREFERENCE: '',
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://music.163.com/#/song?id=1474411443',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
