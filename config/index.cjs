@@ -8,22 +8,22 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx7aa3ec9ecd725d49',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'a56508332c36ed631b1ceaa3a80f9de8',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '湖北',
+  CITY: '黄冈',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小懒猫',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'o6kBF6pxEOBYiqZkYxvqnpR6PKWE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'wUE9QkE0VNNhFRxJqiEc33Z8PCILem_eUEmIbRFgaQ8',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o6kBF6pxEOBYiqZkYxvqnpR6PKWE',
     }
   ],
 
